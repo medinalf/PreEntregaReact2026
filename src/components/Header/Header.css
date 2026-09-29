@@ -10,5 +10,9 @@ header {
 .logo-container a {
   display: flex;
   align-items: center;
-  gap: 0.8rem;
+}
+.logo {
+  width: 130px;
+  height: auto;
+  border-radius: 1rem;
 }

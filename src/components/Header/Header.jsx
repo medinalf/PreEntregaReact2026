@@ -1,13 +1,20 @@
+import { Nav } from "../Nav/Nav";
 import "./Header.css";
+import logo from "../../assets/Logo.png";
 
 export const Header = () => {
   return (
-    <Header>
+    <header>
       <div className="logo-container">
-        <Link to="/">
-          <img src={logo} alt="Logo" className="logo" />
-        </Link>
+        <a className="logo" href="#">
+          <img src={logo} alt="Logo de Vera Pet Shop" className="logo" />
+        </a>
+
+        {/* <Link to="/">
+          <img src={logo} alt="Logo de Vera Pet Shop" className="logo" />
+        </Link> */}
       </div>
-    </Header>
+      <Nav />
+    </header>
   );
 };
