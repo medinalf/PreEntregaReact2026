@@ -1,14 +1,18 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import { Footer } from "./components/Footer/Footer";
 import { Header } from "./components/Header/Header";
-import { ItemListContainer } from "./components/ItemListContainer/ItemListContainer"; 
+import { ItemListContainer } from "./components/ItemListContainer/ItemListContainer";
 
 function App() {
   return (
     <>
       <Header />
       <main>
-        <ItemListContainer />
+        <Routes>
+          <Route path="/" element={<ItemListContainer />} />
+          <Route path="/cart" element={<h1>Carrito</h1>} />
+        </Routes>
       </main>
       <Footer />
     </>

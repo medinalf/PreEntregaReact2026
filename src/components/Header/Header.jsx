@@ -1,18 +1,15 @@
 import { Nav } from "../Nav/Nav";
 import "./Header.css";
 import logo from "../../assets/Logo.png";
+import { Link } from "react-router-dom";
 
 export const Header = () => {
   return (
     <header>
       <div className="logo-container">
-        <a className="logo" href="#">
+        <Link className="logo" to="/">
           <img src={logo} alt="Logo de Vera Pet Shop" className="logo" />
-        </a>
-
-        {/* <Link to="/">
-          <img src={logo} alt="Logo de Vera Pet Shop" className="logo" />
-        </Link> */}
+        </Link>
       </div>
       <Nav />
     </header>
