@@ -3,6 +3,7 @@ import "./App.css";
 import { Footer } from "./components/Footer/Footer";
 import { Header } from "./components/Header/Header";
 import { ItemListContainer } from "./components/ItemListContainer/ItemListContainer";
+import { ItemDetailContainer } from "./components/ItemDetailContainer/ItemDetailContainer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<ItemListContainer />} />
           <Route path="/cart" element={<h1>Carrito</h1>} />
+          <Route path="/product/:id" element={<ItemDetailContainer />} />
         </Routes>
       </main>
       <Footer />
