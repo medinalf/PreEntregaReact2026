@@ -1,0 +1,9 @@
+.detail-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 2rem;
+}
+
+.detail-wrapper .card {
+  width: 50rem;
+}
