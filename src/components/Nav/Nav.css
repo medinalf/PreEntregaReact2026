@@ -1,6 +1,7 @@
 .nav-list {
   list-style: none;
   display: flex;
+  align-items: center;
   gap: 2rem;
 }
 .nav-list a {
@@ -13,4 +14,52 @@
 }
 .nav-list a:hover {
   color: #f5be4f;
+}
+/* Contenedor del menú desplegable */
+.dropdown {
+  position: relative;
+}
+/* Botón Categorías */
+.dropdown-button {
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  font-size: 2rem;
+  padding: 1rem;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+.dropdown-button:hover {
+  color: #f5be4f;
+}
+/* Submenú */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 18rem;
+  padding: 0.5rem 0;
+  margin: 0;
+  list-style: none;
+  background: rgb(111, 75, 153);
+  border-radius: 0.5rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+  z-index: 10;
+}
+/* Enlaces del submenú */
+.dropdown-menu a {
+  display: block;
+  padding: 1rem 1.5rem;
+  font-size: 1.8rem;
+  white-space: nowrap;
+}
+/* Mostrar al pasar el mouse */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+/* Mostrar también al navegar con teclado */
+.dropdown:focus-within .dropdown-menu {
+  display: block;
 }
