@@ -15,17 +15,16 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .product-title {
-  font-size: 2.3rem;
+  font-size: 2.5rem;
   padding: 1rem 2rem 0;
   text-align: center;
-  padding: 1rem 2rem 0;
   color: #3523aa;
   min-height: 6rem;
   display: flex;
   align-items: center;
 }
 .description {
-  padding: 0 2rem;
+  padding: 0 3rem;
   text-align: center;
   color: #4d3d61;
   line-height: 1.5;
