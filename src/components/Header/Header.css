@@ -16,3 +16,18 @@ header {
   height: auto;
   border-radius: 1rem;
 }
+.logo-link {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  text-decoration: none;
+  color: inherit;
+}
+.brand-name {
+  font-size: 3rem;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+.logo-link:hover .brand-name {
+  color: #f5be4f;
+}

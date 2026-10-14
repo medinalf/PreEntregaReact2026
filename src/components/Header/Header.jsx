@@ -7,9 +7,9 @@ export const Header = () => {
   return (
     <header>
       <div className="logo-container">
-        <Link className="logo" to={"/"}>
+        <Link className="logo-link" to={"/"}>
           <img src={logo} alt="Logo de Vera Pet Shop" className="logo" />
-          <span>Vera Pet Shop</span>
+          <span className="brand-name"> Vera Pet Shop</span>
         </Link>
       </div>
       <Nav />
