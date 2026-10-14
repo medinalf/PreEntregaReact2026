@@ -9,9 +9,9 @@ export const Header = () => {
       <div className="logo-container">
         <Link className="logo-link" to={"/"}>
           <img src={logo} alt="Logo de Vera Pet Shop" className="logo" />
-          <span className="brand-name"> Vera Pet Shop</span>
         </Link>
       </div>
+      <span className="brand-name"> Vera Pet Shop </span>
       <Nav />
     </header>
   );

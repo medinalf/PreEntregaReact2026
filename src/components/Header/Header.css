@@ -1,4 +1,5 @@
 header {
+  position: relative;
   background: rgb(111, 75, 153);
   color: antiquewhite;
   width: 100%;
@@ -26,6 +27,8 @@ header {
 .brand-name {
   font-size: 3rem;
   font-weight: bold;
+  text-align: center;
+  line-height: 1.2;
   transition: color 0.3s;
 }
 .logo-link:hover .brand-name {
