@@ -29,6 +29,12 @@
   color: #4d3d61;
   line-height: 1.5;
   flex-grow: 1;
+  /* Mostrar solo una línea en el catálogo */
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+  box-sizing: border-box;
 }
 .card img {
   width: 100%;

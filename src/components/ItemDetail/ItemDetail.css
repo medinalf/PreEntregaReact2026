@@ -1,19 +1,21 @@
 .detail-wrapper {
-  display: flex;
+  max-width: 20rem;
   justify-content: center;
   padding: 3rem 2rem;
+  margin: auto;
   width: 100%;
+  box-sizing: border-box;
+}
+.detail-wrapper .card .description {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: unset;
+  overflow-wrap: anywhere;
+  width: auto;
 }
 
-.detail-wrapper .card {
-  max-width: 60rem;
-  width: 100%;
-}
-.detail-wrapper .card img {
-  width: 80%;
-  height: 40rem;
-  max-height: 45rem;
-  object-fit: cover;
-  object-position: center;
+.detail-wrapper .card p:first-of-type {
   display: block;
+  overflow: visible;
+  text-overflow: clip;
 }
