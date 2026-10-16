@@ -1,3 +1,11 @@
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.main-content {
+  flex: 1;
+}
 /* Estilos generales de botones */
 .btn {
   border: none;

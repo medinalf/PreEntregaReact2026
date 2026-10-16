@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Header />
-      <main>
+      <main className="main-content">
         <Routes>
           <Route path="/" element={<ItemListContainer />} />
           <Route path="/cart" element={<h1>Carrito</h1>} />
